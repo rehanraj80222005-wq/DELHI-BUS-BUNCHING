@@ -1,0 +1,37 @@
+# Environment variables
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data and large dumps
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/features/*
+!data/features/.gitkeep
+*.zip
+*.tar.gz
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
